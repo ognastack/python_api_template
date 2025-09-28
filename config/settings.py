@@ -14,7 +14,7 @@ class Settings(BaseModel):
     API_V1_STR: str = "/v1"
 
     # Security
-    SECRET_KEY: str = 'askldjfhlkajh'
+    SECRET_KEY: str = 'superlongjwtsecret'
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     ALGORITHM: str = "HS256"
 
